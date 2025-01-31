@@ -12,7 +12,7 @@ const randomDelay = () => {
         timeout = 1 + 6 * Math.random();
         setTimeout(() => {
             resolve()
-        }, timeout * 3000);
+        }, timeout * 2000);
     })
 }
 
